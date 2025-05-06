@@ -107,8 +107,23 @@ header .menu .buttons .shop {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+    margin-left: 60px;
+  }
+  #beautiful .box h5 {
+    font-size: 18px;
+  }
+  #beautiful .box .btn {
+    margin-left: 10px;
+  }
+  #beautiful .box .imgbox {
+    padding-top: 10px;
+  }
+  #beautiful .box h4 {
+    padding-bottom: 30px;
   }
 }
+
 #thehome {
   background-color: #f1f8f9;
 }
@@ -138,6 +153,19 @@ header .menu .buttons .shop {
   width: 100%;
   margin-left: 20px;
 }
+@media (max-width: 992px) {
+  #thehome .textbox {
+    margin: auto;
+    text-align: center;
+  }
+  #thehome .textbox .btn {
+    margin-bottom: 40px;
+  }
+  #thehome .imgbox {
+    margin: 20px 20px 0 0;
+  }
+}
+
 #works h1 {
   font-weight: 700;
   font-size: 60px;
