@@ -80,7 +80,7 @@ header .menu .buttons .shop {
 }
 #beautiful .box h5 {
   color: #676f8b;
-  font-size: 20px;
+  font-size: 15px;
   margin: 25px 0 50px 0;
   line-height: 1.3;
 }
@@ -111,7 +111,7 @@ header .menu .buttons .shop {
     margin-left: 60px;
   }
   #beautiful .box h5 {
-    font-size: 18px;
+    font-size: 20px;
   }
   #beautiful .box .btn {
     margin-left: 10px;
@@ -121,6 +121,31 @@ header .menu .buttons .shop {
   }
   #beautiful .box h4 {
     padding-bottom: 30px;
+  }
+}
+@media (max-width: 768px) {
+  #beautiful .box {
+    margin: auto;
+  }
+  #beautiful .box h5 {
+    font-size: 22px;
+  }
+  #beautiful .box .btn {
+    font-size: 18px;
+  }
+}
+@media (max-width: 430px) {
+  #beautiful .box {
+    margin: auto;
+  }
+  #beautiful .box h1 {
+    font-size: 60px;
+  }
+  #beautiful .box h5 {
+    font-size: 18px;
+  }
+  #beautiful .box .btn {
+    font-size: 16px;
   }
 }
 
@@ -163,6 +188,17 @@ header .menu .buttons .shop {
   }
   #thehome .imgbox {
     margin: 20px 20px 0 0;
+  }
+}
+@media (max-width: 430px) {
+  #thehome .textbox h1 {
+    font-size: 50px;
+  }
+  #thehome .textbox h5 {
+    font-size: 18px;
+  }
+  #thehome .textbox .btn {
+    font-size: 18px;
   }
 }
 
